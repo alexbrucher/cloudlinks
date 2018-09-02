@@ -3,16 +3,24 @@
     <head>
         <title>cloudlinks</title>
         <meta charset="utf-8">
+
+        <script src="scripts.js"></script>
+
         <link rel="stylesheet" href="style.css">
-        <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+
+        <link rel='icon' href='favicon.ico' type='image/x-icon'>
     </head>
     <body>
       <!--heading-->
-      <h1>Cloud Links</h1>
+      <h1>cloudlinks</h1>
 
-      <ul>
+      <!--Search Bar Filter-->
+      <input type="text" id="searchBar" onkeyup="searchLinks()" placeholder="Search links">
+
+      <ul id="myLinks">
         <li><img src="link_type_out.png">&nbsp;<a href="https://google.com">Google</a></li>
         <li><img src="link_type_out.png">&nbsp;<a href="https://apple.com">Apple</a></li>
       </ul>
+
     </body>
 </html>

@@ -4,4 +4,10 @@ body{
 h1 {
   font-family: sans-serif;
   color: white;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 300%;
+}
+a {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 150%;
 }

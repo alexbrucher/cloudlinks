@@ -1,2 +1,2 @@
 # cloudlinks
-A website where you can store links on the cloud.
+A website containing links which you can veiw and manage from any device.

@@ -4,6 +4,7 @@
         <title>cloudlinks</title>
         <meta charset="utf-8">
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="scripts.js"></script>
 
         <link rel="stylesheet" href="style.css">
@@ -18,8 +19,9 @@
       <input type="text" id="searchBar" onkeyup="searchLinks()" placeholder="Search links">
 
       <ul id="myLinks">
-        <li><img src="link_type_out.png">&nbsp;<a href="https://google.com">Google</a></li>
-        <li><img src="link_type_out.png">&nbsp;<a href="https://apple.com">Apple</a></li>
+        <script>showLinks()</script>
+        <!--<li><img src="link_type_out.png">&nbsp;<a href="https://google.com">Google</a></li>
+        <li><img src="link_type_out.png">&nbsp;<a href="https://apple.com">Apple</a></li>-->
       </ul>
 
     </body>

@@ -4,7 +4,7 @@ function searchLinks() {
     var filter = searchInput.value.toLowerCase();
 
     // Loop through all list items, and hide those who don't match the search query.
-    var links = document.getElementById("myLinks").getElementsByTagName('li');
+    var links = $("#myLinks li");
     for (var i=0; i < links.length; i++) {
         var as = links[i].getElementsByTagName("a");
         var linkTag = as[0];

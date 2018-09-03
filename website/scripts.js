@@ -19,7 +19,12 @@ function searchLinks() {
 function showLinks() {
     $.getJSON("https://cloudlinks.nfshost.com/links.php", function(data){
       for(i in data.links) {
-        $("#myLinks").append("<li><img src=\"link_type_out.png\">&nbsp;<a href=\"" + data.links[i].url + "\">" + data.links[i].name + "</a></li>");
+        var url = data.links[i].url;
+	var favicon_url = url + "/favicon.ico";
+        $("#myLinks").append("<li>" +
+          "<img src=\"link_type_out.png\">&nbsp;" + 
+          "<img src=\"" + favicon_url + "\" width=\"16\">&nbsp;" +
+          "<a href=\"" + url + "\">" + data.links[i].name + "</a></li>");
       }
     });
 }

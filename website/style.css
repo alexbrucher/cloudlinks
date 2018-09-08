@@ -1,32 +1,33 @@
 body{
   background-color: black;
 }
+
 h1 {
   font-family: sans-serif;
   color: white;
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 300%;
 }
+
 a {
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 130%;
 }
 
-
 #searchBar {
-    background-position: 10px 12px; /* Position the search icon */
-    background-repeat: no-repeat; /* Do not repeat the icon image */
-    border: 1px solid #ddd; /* Add a grey border */
-    border-radius: 4px;
-    margin-bottom: 12px; /* Add some space below the input */
-    width: 30%;
-    padding: 1px 5px;
-    font-size: 130%;
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  border: 1px solid #ddd; /* Add a grey border */
+  border-radius: 4px;
+  margin-bottom: 12px; /* Add some space below the input */
+  width: 30%;
+  padding: 1px 5px;
+  font-size: 130%;
 }
 
 #myLinks {
-    /* Remove default list styling */
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
